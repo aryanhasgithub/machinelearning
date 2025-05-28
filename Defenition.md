@@ -41,6 +41,38 @@ Parts Of Ml:-
    All the p have different transformation
    SO they are layers
 
-   
-   
+Some more def:-
+*********DATA IS VERY IMPORTATANT****************
+Features:-Info we feed to the model
+Label:-The thing we want to predict
+Training Data:- all our features and Label(the outcome or the answers)
+Test data-Only features
+Types of ML:-
+           -Supervised Learning:-
+           -We have features which lead to lable/labels
+           -We have both informations
+           -Most Common/Applicable
+           Diagram:-
+                                  Supervisor           
+                                      |
+                                      |
+                       training data       expected output
+                             |                    |            
+           raw/newdata---->************algorithm************* --->Output
+
+-Unsupervised:-
+           -Only features
+           -Model generate lable
+           -Model Groups Data(Example)
+           
+- Reinforcement:-
+           -    Agent->solver
+           -    Enviroment->Self explanatory
+           -    Reward->Prize for agent
+           -    for every step in right direction/closer to target you give the agent and reward
+           -    For wrong step negitve reward to agent
+           -    Agents wants to Maximize reward
+           -    Learns from - and + rewards
+
   
+
