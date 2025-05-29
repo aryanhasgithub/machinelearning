@@ -22,6 +22,16 @@ Shape of Tensor
 *******coding********
 tensor.shape->TensorShape([A,....,z])
 The leftmost number (A) is the outermost structure (like "how many groups")
-
 The rightmost number is the innermost detail (like "how many values in a row")
-53:55
+tf.reshape(tensorname,newshape)
+**New shape(multiplied) must have same number of elements as orignal***
+EX-tf.reshape(tensor,[3,-1])
+seperates into 3 lists and infers the amount needed in each
+#also if you put the multipliction of orignal tensor you will get a huge array with no nested arrays
+Types of Tensors:-
+    -Variable
+    -Constant
+    -Placeholder
+    -Sparsetensor
+    ***Every Tensor Type execpt variable is immutabe****
+colab-https://colab.research.google.com/drive/1XyBrqky4h7t8u0XF7Jp9NG5st8B6eDhs?usp=sharing
