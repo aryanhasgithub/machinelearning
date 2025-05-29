@@ -1,0 +1,12 @@
+Core Learning Algorithms:-
+   -Linear Regression
+        -Linear regression is one of the most basic forms of machine learning and is used to predict numeric values.
+        -Linear regression follows a very simple concept. If data points are related linearly, we can generate a line of best fit for these points and use it to predict future values
+        -if you have a graph and there are multiple data points in which the values are scaling linearly you can use linear regression
+        -Essentialy you make a line'/axis which goes through all the dsta points this is called the line f best fit
+****CODING******
+tf.feature_column.categorical_column_with_vocabulary_list(feature_name, vocabulary)
+converting object to intiger/key
+tf.feature_column.numeric_column(feature_name, dtype=tf.float32)
+convert int/float to tf readable
+
