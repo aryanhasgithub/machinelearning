@@ -35,3 +35,4 @@ Types of Tensors:-
     -Sparsetensor
     ***Every Tensor Type execpt variable is immutabe****
 colab-https://colab.research.google.com/drive/1XyBrqky4h7t8u0XF7Jp9NG5st8B6eDhs?usp=sharing
+  
